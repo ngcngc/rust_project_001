@@ -1,0 +1,19 @@
+# 1. Xem thay đổi
+git status
+
+# 2. Thêm tất cả file
+git add .
+
+# 3. Commit
+git commit -m "Sửa bug trang chủ"
+
+# 4. Cập nhật code mới nhất (nếu có người khác commit)
+git pull origin main
+
+# 5. Đẩy lên
+git push origin main
+
+============================================================
+
+Pull trước khi push	Nếu người khác cũng đẩy code lên, nên git pull origin main trước khi push để tránh xung đột
+Branch mới	        Nếu làm tính năng lớn, nên tạo branch riêng: [ git checkout -b ten-branch ]
